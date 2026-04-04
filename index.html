@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ATC — универсальный скринер крипторынка: Funding, Spread, PUMP/DUMP. Аналитика на основе данных, помощник трейдера.">
+  <title>ATC | Algorithmic Trading Consulting — скринер рынка</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container header__container">
+      <a href="#home" class="logo">ATC</a>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li><a href="#about">О проекте</a></li>
+          <li><a href="#history">История</a></li>
+          <li><a href="#tools">Скринер</a></li>
+          <li><a href="#mexc">Партнёр</a></li>
+          <li><a href="#guides">Гайды</a></li>
+          <li><a href="#access">Доступ</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+        <button class="nav__toggle" aria-label="Меню">
+          <span></span><span></span><span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section id="home" class="hero">
+      <div class="container hero__container">
+        <div class="hero__badge">Algorithmic Trading Consulting</div>
+        <h1 class="hero__title">Универсальный <span>скринер</span><br>крипторынка</h1>
+        <p class="hero__desc">Funding, Spread, PUMP/DUMP — аналитика на основе данных. Ваш персональный помощник в трейдинге.</p>
+        <div class="hero__buttons">
+          <a href="#access" class="btn btn-primary">Доступ к скринеру</a>
+          <a href="#about" class="btn btn-outline">Как это работает</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- О проекте (методология) -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__label">01 — Методология</span>
+          <h2>Данные,<br>а не эмоции</h2>
+        </div>
+        <div class="grid-2">
+          <div class="card">
+            <div class="card__icon">📊</div>
+            <h3>Объективная аналитика</h3>
+            <p>Скринер анализирует ликвидность, дисбаланс позиций, объёмы и кластеризацию ордеров. Никаких субъективных графиков.</p>
+          </div>
+          <div class="card">
+            <div class="card__icon">⚙️</div>
+            <h3>Статистический подход</h3>
+            <p>Модели ищут повторяющиеся паттерны в рыночных данных. Убыточные срабатывания возможны — это часть системы.</p>
+          </div>
+          <div class="card">
+            <div class="card__icon">🎯</div>
+            <h3>Риск-менеджмент</h3>
+            <p>Рекомендуем 1–3% депозита на сделку. Кросс-маржа, без усреднения (кроме явных указаний).</p>
+          </div>
+          <div class="card">
+            <div class="card__icon">📈</div>
+            <h3>Помощник трейдера</h3>
+            <p>Не просто данные, а готовые сценарии с уровнями входа, целями и стопами. Сопровождение в реальном времени.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- История проекта -->
+    <section id="history" class="section history-section">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__label">02 — История</span>
+          <h2>Как создавался ATC</h2>
+        </div>
+        <div class="history__content">
+          <div class="history__text">
+            <p>Всё началось в 2018 году с небольшой команды разработчиков и трейдеров, которые устали от «сигнальщиков» и бесполезных прогнозов. Мы задались вопросом: <strong>можно ли превратить рыночный шум в измеримые паттерны?</strong></p>
+            <p>За три года мы перебрали десятки моделей — от регрессии до градиентного бустинга. К 2021 году родился прототип скринера, который замечал аномалии в фандинге и межбиржевых спредах. Ещё год ушёл на оптимизацию и адаптацию под реальный рынок.</p>
+            <p>Сейчас ATC — это <strong>7 алгоритмов</strong>, работающих 24/7. Мы не даём советов «куда пойдёт биткоин». Мы просто показываем, где рынок ведёт себя неэффективно. Остальное — за вами.</p>
+            <div class="history__stats">
+              <div><span>7</span> алгоритмов</div>
+              <div><span>5+</span> лет разработки</div>
+              <div><span>200+</span> участников</div>
+            </div>
+          </div>
+          <div class="history__image">
+            <div class="code-graph">📈🤖⚙️</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Инструменты (скринер) -->
+    <section id="tools" class="section">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__label">03 — Скринер</span>
+          <h2>Что отслеживает система</h2>
+        </div>
+        <div class="grid-2 tools__grid">
+          <div class="card card--accent">
+            <div class="card__icon">💰</div>
+            <h3>Funding Rate</h3>
+            <p>Анализ перекоса лонгов/шортов на бессрочных фьючерсах. Скринер показывает моменты, когда ставка достигает экстремальных значений.</p>
+            <span class="card__tag">Bybit · MEXC · OKX</span>
+          </div>
+          <div class="card card--accent">
+            <div class="card__icon">🔄</div>
+            <h3>Spread</h3>
+            <p>Межбиржевые расхождения (CEX ↔ DEX) и возврат к среднему. Помогает находить временные аномалии в цене.</p>
+            <span class="card__tag">Мультибиржевой</span>
+          </div>
+          <div class="card card--accent">
+            <div class="card__icon">⚡</div>
+            <h3>PUMP / DUMP</h3>
+            <p>Скринер находит аномальные всплески объёма и цены — потенциальные пампи и дампы. Анализ графического паттерна: резкий рост → разворот → коррекция.</p>
+            <span class="card__tag">Краткосрочные движения</span>
+          </div>
+          <div class="card card--accent">
+            <div class="card__icon">📋</div>
+            <h3>Торговые идеи</h3>
+            <p>Готовые сценарии на основе данных скринера — с уровнями входа, целями и стопами. (Без видео)</p>
+            <span class="card__tag">Сопровождение</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Партнёр MEXC (20% кэшбэк) -->
+    <section id="mexc" class="section mexc-section">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__label">04 — Партнёрская программа</span>
+          <h2>Торгуйте на MEXC и получайте кэшбэк 20%</h2>
+          <p class="section__sub">Эксклюзивное предложение для участников ATC</p>
+        </div>
+        <div class="mexc__offer">
+          <div class="mexc__cashback">
+            <span class="cashback-badge">🔥 20% кэшбэк навсегда</span>
+            <p>Зарегистрируйтесь по нашей партнёрской ссылке и получите <strong>пожизненный возврат 20% от всех уплаченных комиссий</strong> на споте, фьючерсах и маржинальной торговле. Кэшбэк начисляется <strong>ежедневно</strong> и автоматически зачисляется на ваш счёт.</p>
+          </div>
+          <div class="mexc__buttons">
+            <a href="#" class="btn btn-primary btn-large" data-mexc-ref target="_blank" rel="noopener sponsored">
+              📈 Зарегистрироваться на MEXC
+            </a>
+          </div>
+          <div class="mexc__note">
+            * Уникальное партнёрское условие действует только при регистрации по нашей ссылке. Поддержите развитие ATC — торгуйте с кэшбэком.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Гайды с поддержкой YouTube по ID -->
+    <section id="guides" class="section">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__label">05 — Обучение</span>
+          <h2>Видео-гайды по скринеру</h2>
+        </div>
+        <div class="grid-2 guides__grid">
+          <!-- Funding -->
+          <div class="guide-card" data-youtube-id="_NxWpMomgcw">
+            <div class="guide-card__status ready">Видео гайд</div>
+            <h3>Funding Rate</h3>
+            <p>Как работает фандинг и как интерпретировать данные скринера.</p>
+            <div class="video-wrapper"></div>
+          </div>
+          <!-- Spread -->
+          <div class="guide-card" data-youtube-id="ВАШ_ID_YouTube_SPREAD">
+            <div class="guide-card__status ready">Видео гайд</div>
+            <h3>Spread стратегии</h3>
+            <p>Анализ межбиржевых спредов и возврата к среднему.</p>
+            <div class="video-wrapper"></div>
+          </div>
+          <!-- PUMP/DUMP -->
+          <div class="guide-card" data-youtube-id="ВАШ_ID_YouTube_IMPULSE">
+            <div class="guide-card__status ready">Видео гайд</div>
+            <h3>PUMP / DUMP</h3>
+            <p>Графическое сопровождение: как скринер находит пампи и дампы, паттерны объёма.</p>
+            <div class="video-wrapper"></div>
+          </div>
+          <!-- Торговые идеи (без видео) -->
+          <div class="guide-card">
+            <div class="guide-card__status soon">Текст + примеры</div>
+            <h3>Торговые идеи</h3>
+            <p>Готовые сценарии на основе данных скринера. Видео не планируется — только текстовые разборы в чате.</p>
+            <a href="#" class="btn-link" id="tg-ideas" target="_blank">Обсудить в Telegram →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Доступ -->
+    <section id="access" class="section">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__label">06 — Доступ</span>
+          <h2>Как получить доступ к скринеру</h2>
+        </div>
+        <div class="steps">
+          <div class="step">
+            <span class="step__num">1</span>
+            <h3>Свяжитесь с нами</h3>
+            <p>Напишите в Telegram, чтобы уточнить условия.</p>
+          </div>
+          <div class="step">
+            <span class="step__num">2</span>
+            <h3>Выберите тариф</h3>
+            <p>Согласуем доступ к данным скринера и закрытому чату.</p>
+          </div>
+          <div class="step">
+            <span class="step__num">3</span>
+            <h3>Онбординг</h3>
+            <p>Наблюдайте 1–2 дня, затем начинайте использовать аналитику.</p>
+          </div>
+        </div>
+        <div class="access__action">
+          <a href="#" class="btn btn-primary" id="tg-button" target="_blank">Написать в Telegram →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Рекомендации -->
+    <section id="rules" class="section rules-section">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__label">07 — Рекомендации</span>
+          <h2>Как работать со скринером</h2>
+        </div>
+        <div class="rules__list">
+          <div class="rule-item">🧠 Не пытайтесь угадать — доверяйте данным</div>
+          <div class="rule-item">💸 Риск на сделку: комфортная для вас сумма (обычно 1–3%)</div>
+          <div class="rule-item">⏳ Если пропустили вход — не догоняйте, ждите следующего</div>
+          <div class="rule-item">📉 Убытки — нормальная часть процесса</div>
+          <div class="rule-item">🔄 Используйте кросс-маржа, избегайте усреднения</div>
+        </div>
+        <div class="disclaimer">
+          <p>⚠️ Информация не является индивидуальной инвестиционной рекомендацией. Криптовалютные деривативы связаны с высоким риском. Торгуйте только на средства, которые готовы потерять.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__label">08 — Вопросы</span>
+          <h2>Часто задаваемые</h2>
+        </div>
+        <div class="faq">
+          <div class="faq__item">
+            <button class="faq__question">С каким депозитом можно начинать?</button>
+            <div class="faq__answer">Ограничений нет. Даже небольшой депозит подходит, главное — соблюдать риск-менеджмент. Наши рекомендации по размеру позиции адаптивны под любой капитал.</div>
+          </div>
+          <div class="faq__item">
+            <button class="faq__question">Какое плечо использовать?</button>
+            <div class="faq__answer">Рекомендуем 3×–10×. Высокое плечо увеличивает риск ликвидации и не даёт преимущества на дистанции.</div>
+          </div>
+          <div class="faq__item">
+            <button class="faq__question">Почему скринер иногда даёт ложные срабатывания?</button>
+            <div class="faq__answer">Любая статистическая модель имеет погрешность. Мы стремимся к высокой точности, но 100% гарантии невозможны. Используйте скринер как помощника.</div>
+          </div>
+          <div class="faq__item">
+            <button class="faq__question">Сколько времени нужно, чтобы освоиться?</button>
+            <div class="faq__answer">Обычно 1–2 недели активного наблюдения. Мы предоставляем обучающие видео и текстовые гайды, а также чат с сообществом.</div>
+          </div>
+          <div class="faq__item">
+            <button class="faq__question">Нужно ли ставить стоп-лосс?</button>
+            <div class="faq__answer">Если уровень указан в аналитике — обязательно. Иначе выход по сопровождению. Стопы помогают сохранить капитал.</div>
+          </div>
+          <div class="faq__item">
+            <button class="faq__question">Как часто обновляются данные скринера?</button>
+            <div class="faq__answer">В реальном времени, 24/7. Задержка от появления аномалии до отображения — не более 5 секунд.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- НОВЫЙ БЛОК: Скоро в ATC (интрига про форекс, индексы, CFD) -->
+    <section class="section teaser-section">
+      <div class="container">
+        <div class="teaser__content">
+          <div class="teaser__icon">🌍➡️📈</div>
+          <h2>Скоро в ATC</h2>
+          <p>Мы не стоим на месте. Уже в разработке — <strong>аналитические модули для Форекс, индексов и CFD</strong>. Та же философия: данные, статистика, никаких эмоций. Подписывайтесь на Telegram-канал, чтобы не пропустить запуск.</p>
+          <div class="teaser__button">
+            <a href="#" class="btn btn-outline" id="tg-channel-teaser" target="_blank">🔔 Подписаться на анонсы</a>
+          </div>
+          <div class="teaser__hint">Следите за обновлениями — скоро выйдет бета‑версия</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Контакты (оставляем для связи) -->
+    <section id="contact" class="section contact">
+      <div class="container">
+        <div class="contact__inner">
+          <h2>Остались вопросы?</h2>
+          <p>Напишите нам — ответим в течение нескольких часов.</p>
+          <a href="#" class="btn btn-primary" id="tg-button-footer" target="_blank">Telegram</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__container">
+      <a href="#home" class="footer__logo" id="footer-logo">ATC</a>
+      <div class="footer__socials">
+        <a href="#" class="social-link" id="tg-channel" target="_blank" aria-label="Telegram канал">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.6-1.38-.97-2.23-1.56-.99-.69-.35-1.07.22-1.69.15-.15 2.77-2.54 2.82-2.76.01-.03.02-.14-.05-.2-.07-.06-.18-.04-.26-.02-.11.02-1.93 1.22-5.44 3.6-.52.36-.98.53-1.4.52-.46-.01-1.34-.26-2-.47-.8-.26-1.44-.4-1.38-.85.03-.23.35-.47.96-.72 3.77-1.64 6.28-2.72 7.53-3.24 3.58-1.49 4.33-1.75 4.82-1.76.11 0 .35.03.51.19.13.13.17.31.19.49-.01.07 0 .15-.02.23z" fill="currentColor"/>
+          </svg>
+          <span>Telegram канал</span>
+        </a>
+      </div>
+
+      <!-- Дисклеймер на русском языке -->
+      <div class="footer__disclaimer">
+        <h4>Важная информация и отказ от ответственности</h4>
+        <p><strong>Симуляционная торговая среда.</strong> Все сервисы, предоставляемые ATC, работают исключительно в симуляционной (демонстрационной) среде. Никакие реальные сделки на финансовых рынках не исполняются. Наши услуги предназначены только для образовательных и оценочных целей.</p>
+        <p><strong>Не инвестиционная консультация.</strong> ATC не предоставляет инвестиционных рекомендаций, не призывает к покупке или продаже каких-либо финансовых инструментов и не выступает в роли брокера, депозитария или финансового посредника. Участие в наших программах является добровольным, все уплаченные сборы являются платой за услуги (не депозиты, не инвестиции) и не подлежат возврату, за исключением случаев, предусмотренных законодательством. Эти средства направляются на операционные и административные расходы.</p>
+        <p><strong>Риски.</strong> Торговля финансовыми инструментами (в том числе криптовалютными деривативами) сопряжена с высоким риском потери капитала. Даже в симуляционной среде стратегии, использующие кредитное плечо, могут давать результаты, не достижимые в реальных условиях. Прошлые симуляционные показатели не гарантируют будущих результатов.</p>
+        <p><strong>Юридическая информация.</strong> ATC является проектом, зарегистрированным в установленном порядке. Компания не оказывает брокерских услуг и не предоставляет реальные торговые счета через данный сайт. Услуги ограничены симуляционными торговыми программами и обучением.</p>
+      </div>
+
+      <p class="footer__copy">© 2026 Algorithmic Trading Consulting — универсальный скринер крипторынка</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
