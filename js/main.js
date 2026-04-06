@@ -4,7 +4,8 @@
   // === НАСТРОЙКИ (замените на свои) ===
   const MEXC_REF_URL = 'https://www.mexc.com/ru-RU/acquisition/custom-sign-up?shareCode=mexc-atc';        // ваша партнёрская ссылка MEXC
   const TELEGRAM_CHANNEL_URL = 'https://t.me/atcsystems';    // ссылка на Telegram КАНАЛ
-  const TELEGRAM_CONTACT_URL = 'https://t.me/atc_access_bot?start=start';    // для кнопок "Написать в Telegram"
+  const TELEGRAM_CONTACT_URL = 'https://t.me/atc_scanner_bot?start=start';
+    // для кнопок "Написать в Telegram"
 
   // === MEXC ссылки ===
   document.querySelectorAll('[data-mexc-ref]').forEach(el => {
